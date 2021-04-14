@@ -20,7 +20,16 @@ gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+# gem 'bcrypt', '~> 3.1.7'	
+# Authentication
+gem 'devise'
+# Serialization of Json
+gem 'fast_jsonapi', git: "https://github.com/Netflix/fast_jsonapi",
+branch: "dev"
+# Searches within Postgresql
+gem 'pg_search'
+
+gem 'figaro'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
